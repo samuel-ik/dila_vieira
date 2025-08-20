@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.first-section {
+    background-color: #AC0B11;
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.text-section {
+    width: 60%;
+    margin-left: 20px;
+}
+
+.ame-seu-produto-title {
+    font-size: 7rem;
+    font-weight: bold;
+    color: #F9E8CF;
+    text-align: center;
+    margin: 0;
+}
+
+.ame-seu-produto-description {
+    width: 60%;
+    font-size: 1.2rem;
+    color: #F9E8CF;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #F9E8CF;
+    color: #AC0B11;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.second-section {
+    background-color: #F9E8CF;
+    padding: 50px 0;
+}
+
+.sobre-ebook-title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #AC0B11;
+}
+
+.sobre-ebook-description {
+    font-size: 1.2rem;
+    color: #AC0B11;
+    margin-top: 20px;
+    line-height: 1.6;
+    width: 50%;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.image-container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.apresentacao-title {
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #F9E8CF;
+}
+
+.apresentacao-description {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: #F9E8CF;
+    margin-top: 20px;
+    line-height: 1.6;
+    width: 60%;
+    text-align: justify;
+}
